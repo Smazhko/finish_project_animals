@@ -118,6 +118,11 @@ class AnimalModel {
             currentAnimal.setCommandList(new ArrayList<>());
         }
         currentAnimal.getCommandList().add("'" + newCommand + "'");
+        // избавимся от дубликатов в списке команд
+        HashSet<String> tempHS = new HashSet<>(currentAnimal.getCommandList());
+        ArrayList<String> tempAL = new ArrayList<>(tempHS);
+        currentAnimal.setCommandList(tempAL);
+
         saveBase();
     }
 
@@ -157,4 +162,3 @@ class AnimalModel {
     }
 
 }
-

@@ -11,7 +11,7 @@
 3. Создание БД и SQL запросы с резальтатами их выполнения - [FINAL4_ANIMALS.sql](https://github.com/Smazhko/finish_project_animals/blob/main/FINAL4_ANIMALS.sql).
    Работа проводилась в среде ```MySQL Workbench 8.0 CE```
 
-4. Программа с реестром животных [AnimalShelterApp.java](https://github.com/Smazhko/finish_project_animals/blob/main/src/main/java/AnimalShelterApp.java)
+4. Программа с реестром животных ```AnimalShelterApp.java```.
    1) реализована модель MVP/MVC (```AnimalModel.java```, ```AnimalView.java```, ```AnimalPresenter.java```)
    2) классы созданы и распределены в соответствии с иерархией и наследованием:
       - главный абстрактный класс ```Animal```, в котором реализован основной функционал, присущий всех животным,
